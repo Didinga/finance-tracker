@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import csv
 from datetime import datetime
 import os
@@ -46,6 +47,29 @@ def show_balance():
 
     print("\n💰 Zůstatek:", income - expense, "Kč")
 
+def show_graph():
+    income = 0
+    expense = 0
+
+    with open(FILE, mode="r", encoding="utf-8") as file:
+        reader = csv.reader(file)
+        next(reader)
+
+        for row in reader:
+            if row[1] == "prijem":
+                income += float(row[2])
+            else:
+                expense += float(row[2])
+
+    labels = ["Prijmy", "Vydaje"]
+    values = [income, expense]
+
+    plt.bar(labels, values)
+    plt.title("Prehled financi")
+    plt.xlabel("Typ")
+    plt.ylabel("Kc")
+    plt.show()
+
 def menu():
     while True:
         print("\n📋 FINANCE TRACKER")
@@ -53,6 +77,7 @@ def menu():
         print("2 - Přidat výdaj")
         print("3 - Zobrazit přehled")
         print("4 - Zobrazit zůstatek")
+        print("5 - Zobrazit graf")
         print("0 - Konec")
 
         choice = input("Vyber: ")
@@ -65,6 +90,8 @@ def menu():
             show_records()
         elif choice == "4":
             show_balance()
+        elif choice == "5":
+            show_graph()
         elif choice == "0":
             print("👋 Konec")
             break
