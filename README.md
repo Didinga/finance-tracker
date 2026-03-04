@@ -1,4 +1,4 @@
-# đź’° Finance Tracker Pro
+# 💰 Finance Tracker Pro
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
@@ -9,7 +9,7 @@ A Python desktop application for tracking personal finances. Built with Tkinter 
 
 ---
 
-## âś¨ Features
+## ✨ Features
 
 - Add and categorize income and expenses
 - View all transactions in a sortable table
@@ -20,7 +20,7 @@ A Python desktop application for tracking personal finances. Built with Tkinter 
 
 ---
 
-## đź–Ľď¸Ź Screenshots
+## 🖼️ Screenshots
 
 ### GUI
 ![GUI](screenshots/gui.png)
@@ -30,7 +30,7 @@ A Python desktop application for tracking personal finances. Built with Tkinter 
 
 ---
 
-## đźš€ Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ python gui_tracker_modern.py
 
 ---
 
-## đź“ Project Structure & Version History
+##  📁 Project Structure & Version History
 
 This project evolved through 5 versions, demonstrating progressive improvements in architecture and UI design:
 
@@ -70,7 +70,7 @@ This project evolved through 5 versions, demonstrating progressive improvements 
 
 ---
 
-## đź› ď¸Ź Tech Stack
+## 🛠️ Tech Stack
 
 - **Language:** Python 3
 - **GUI:** Tkinter
@@ -79,13 +79,13 @@ This project evolved through 5 versions, demonstrating progressive improvements 
 
 ---
 
-## đź“„ License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## đź‘¤ Author
+## 👤 Author
 
 **Didinga Omodi**
 - GitHub: [@Didinga](https://github.com/Didinga)
