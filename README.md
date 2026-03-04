@@ -1,54 +1,92 @@
-# 💰 Finance Tracker – historie verzí
+# đź’° Finance Tracker Pro
 
-**Python aplikace pro sledování financí**
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
+![Matplotlib](https://img.shields.io/badge/Charts-Matplotlib-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+A Python desktop application for tracking personal finances. Built with Tkinter and Matplotlib, featuring a dark-mode GUI, transaction history table, and real-time charts.
 
 ---
 
-## 🖼️ Screenshoty
+## âś¨ Features
+
+- Add and categorize income and expenses
+- View all transactions in a sortable table
+- Real-time balance calculation
+- Data visualization with charts (Matplotlib)
+- Persistent storage via CSV
+- Dark mode modern UI
+
+---
+
+## đź–Ľď¸Ź Screenshots
 
 ### GUI
 ![GUI](screenshots/gui.png)
 
-### Graf
-![Graf](screenshots/graph.png)
+### Chart
+![Chart](screenshots/graph.png)
 
 ---
 
-## 🏷️ Verze
+## đźš€ Getting Started
 
-### 1️⃣ `tracker.py` – terminálová verze
-* 💻 Zadávání příjmů a výdajů přes terminál
-* 📄 Ukládání do CSV
-* 📊 Výpočet zůstatku
+### Prerequisites
 
-### 2️⃣ `gui_tracker.py` – základní GUI
-* 🖼️ Tkinter GUI
-* ✏️ Zadávání příjmů/výdajů v okně
-* 🔘 Tlačítka pro přidání, zůstatek a graf
-
-### 3️⃣ `gui_tracker_pro.py` – profesionální layout
-* 🎨 Lepší rozložení
-* 🗂️ Oddělené panely pro vstup, tlačítka a zůstatek
-* 🔹 Velká tlačítka, hezčí design
-
-### 4️⃣ `gui_tracker_table.py` – tabulka záznamů
-* 📋 Přehled všech záznamů v tabulce
-* 🔄 Automatické obnovování tabulky
-* 📊 Grafy a zůstatek v reálném čase
-
-### 5️⃣ `gui_tracker_modern.py` – moderní styl
-* 🌙 Tmavý režim
-* 🎨 Barevná tlačítka
-* 🖥️ Moderní vzhled a pohodlné GUI
-* 📊 Tabulka + grafy + zůstatek
-
----
-
-## 🚀 Spuštění
-
-1. Stáhni repozitář
-2. Ujisti se, že máš Python 3 a matplotlib (`sudo apt install python3-matplotlib`)
-3. Spusť libovolnou verzi:
+- Python 3.8+
+- matplotlib
 
 ```bash
-python3 gui_tracker_modern.py
+pip install matplotlib
+```
+
+### Installation
+
+```bash
+git clone https://github.com/Didinga/finance-tracker.git
+cd finance-tracker
+```
+
+### Run
+
+```bash
+python gui_tracker_modern.py
+```
+
+---
+
+## đź“ Project Structure & Version History
+
+This project evolved through 5 versions, demonstrating progressive improvements in architecture and UI design:
+
+| File | Version | Description |
+|------|---------|-------------|
+| `tracker.py` | v1 | CLI version â€” terminal input, CSV storage, balance calculation |
+| `gui_tracker.py` | v2 | Basic Tkinter GUI with buttons for add, balance, and chart |
+| `gui_tracker_pro.py` | v3 | Improved layout with separated panels and larger buttons |
+| `gui_tracker_table.py` | v4 | Added transaction table with auto-refresh and real-time charts |
+| `gui_tracker_modern.py` | v5 | Dark mode, colored buttons, modern design â€” **recommended** |
+
+---
+
+## đź› ď¸Ź Tech Stack
+
+- **Language:** Python 3
+- **GUI:** Tkinter
+- **Charts:** Matplotlib
+- **Storage:** CSV
+
+---
+
+## đź“„ License
+
+This project is licensed under the MIT License.
+
+---
+
+## đź‘¤ Author
+
+**Didinga Omodi**
+- GitHub: [@Didinga](https://github.com/Didinga)
+- LinkedIn: [didiomodi](https://www.linkedin.com/in/didiomodi/)
