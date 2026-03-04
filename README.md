@@ -1,4 +1,4 @@
-# đź’° Finance Tracker Pro
+# Finance Tracker Pro
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
@@ -9,7 +9,7 @@ A Python desktop application for tracking personal finances. Built with Tkinter 
 
 ---
 
-## âś¨ Features
+## Features
 
 - Add and categorize income and expenses
 - View all transactions in a sortable table
@@ -20,7 +20,7 @@ A Python desktop application for tracking personal finances. Built with Tkinter 
 
 ---
 
-## đź–Ľď¸Ź Screenshots
+## ď¸Ź Screenshots
 
 ### GUI
 ![GUI](screenshots/gui.png)
@@ -30,7 +30,7 @@ A Python desktop application for tracking personal finances. Built with Tkinter 
 
 ---
 
-## đźš€ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -56,21 +56,21 @@ python gui_tracker_modern.py
 
 ---
 
-## đź“ Project Structure & Version History
+## Project Structure & Version History
 
 This project evolved through 5 versions, demonstrating progressive improvements in architecture and UI design:
 
 | File | Version | Description |
 |------|---------|-------------|
-| `tracker.py` | v1 | CLI version â€” terminal input, CSV storage, balance calculation |
+| `tracker.py` | v1 | CLI version - terminal input, CSV storage, balance calculation |
 | `gui_tracker.py` | v2 | Basic Tkinter GUI with buttons for add, balance, and chart |
 | `gui_tracker_pro.py` | v3 | Improved layout with separated panels and larger buttons |
 | `gui_tracker_table.py` | v4 | Added transaction table with auto-refresh and real-time charts |
-| `gui_tracker_modern.py` | v5 | Dark mode, colored buttons, modern design â€” **recommended** |
+| `gui_tracker_modern.py` | v5 | Dark mode, colored buttons, modern design - **recommended** |
 
 ---
 
-## đź› ď¸Ź Tech Stack
+## ď¸Ź Tech Stack
 
 - **Language:** Python 3
 - **GUI:** Tkinter
@@ -79,13 +79,13 @@ This project evolved through 5 versions, demonstrating progressive improvements 
 
 ---
 
-## đź“„ License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## đź‘¤ Author
+## Author
 
 **Didinga Omodi**
 - GitHub: [@Didinga](https://github.com/Didinga)
